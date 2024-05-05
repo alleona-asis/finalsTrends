@@ -1,4 +1,4 @@
-.image-1-icon7 {
+.image-1-icon8 {
   height: 101px;
   width: 94px;
   position: absolute;
@@ -16,7 +16,7 @@
   display: none;
   max-width: 100%;
 }
-.home7 {
+.home8 {
   position: relative;
   display: inline-block;
   min-width: 66px;
@@ -30,7 +30,7 @@
   justify-content: flex-start;
   padding: var(--padding-7xl) 0 0;
 }
-.recipes5 {
+.recipes6 {
   position: relative;
   display: inline-block;
   min-width: 90px;
@@ -55,7 +55,7 @@
   display: none;
   max-width: 100%;
 }
-.search-icon4 {
+.search-icon5 {
   height: 40px;
   width: 40px;
   position: relative;
@@ -84,14 +84,14 @@
   justify-content: flex-start;
   padding: var(--padding-mini) var(--padding-19xl) 0 0;
 }
-.male-user-icon6 {
+.male-user-icon7 {
   height: 77px;
   width: 72px;
   position: relative;
   object-fit: cover;
   z-index: 1;
 }
-.image-1-container,
+.frame-header,
 .search-input {
   display: flex;
   flex-direction: row;
@@ -107,7 +107,7 @@
   box-sizing: border-box;
   gap: var(--gap-87xl);
 }
-.image-1-container {
+.frame-header {
   align-self: stretch;
   justify-content: flex-start;
   position: relative;
@@ -116,7 +116,7 @@
   color: var(--color-saddlebrown);
   font-family: var(--font-montserrat);
 }
-.frame-child58 {
+.frame-child69 {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -141,7 +141,7 @@
   max-width: 100%;
   z-index: 1;
 }
-.rectangle-parent18 {
+.rectangle-parent21 {
   width: 747px;
   display: flex;
   flex-direction: row;
@@ -195,10 +195,10 @@
   align-self: stretch;
   position: relative;
 }
-.frame-child59,
-.frame-child60,
-.frame-child61,
-.frame-child62 {
+.frame-child70,
+.frame-child71,
+.frame-child72,
+.frame-child73 {
   position: absolute;
   top: 0;
   left: 135px;
@@ -207,34 +207,34 @@
   height: 175px;
   object-fit: cover;
 }
-.frame-child60,
-.frame-child61,
-.frame-child62 {
+.frame-child71,
+.frame-child72,
+.frame-child73 {
   top: 20px;
   left: 0;
   border-radius: var(--br-11xl) 0 0 0;
   z-index: 1;
 }
-.frame-child61,
-.frame-child62 {
+.frame-child72,
+.frame-child73 {
   top: 126px;
   left: 157px;
   border-radius: 0 0 var(--br-11xl) 0;
 }
-.frame-child62 {
+.frame-child73 {
   top: 171px;
   left: 25px;
   border-radius: 0 0 0 var(--br-11xl);
   z-index: 2;
 }
 .l-weight-images,
-.rectangle-parent19 {
+.rectangle-parent22 {
   position: absolute;
   height: 100%;
   top: 0;
   bottom: 0;
 }
-.rectangle-parent19 {
+.rectangle-parent22 {
   width: 100%;
   margin: 0 !important;
   right: 0;
@@ -284,15 +284,15 @@
   position: relative;
   max-width: 100%;
 }
-.frame-wrapper19,
-.frame-wrapper20,
+.frame-wrapper21,
+.frame-wrapper22,
 .to-lose-weight-an-individual-parent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.frame-wrapper20 {
+.frame-wrapper22 {
   width: 571px;
   flex-direction: row;
   padding: 0 var(--padding-9xs);
@@ -301,7 +301,7 @@
   font-size: var(--font-size-base);
   color: var(--color-chocolate-100);
 }
-.frame-wrapper19,
+.frame-wrapper21,
 .to-lose-weight-an-individual-parent {
   flex-direction: column;
 }
@@ -309,7 +309,7 @@
   align-self: stretch;
   gap: var(--gap-29xl);
 }
-.frame-wrapper19 {
+.frame-wrapper21 {
   width: 586px;
   padding: var(--padding-8xs) 0 0;
   box-sizing: border-box;
@@ -321,10 +321,10 @@
   display: inline-block;
   max-width: 100%;
 }
-.frame-child63,
-.frame-child64,
-.frame-child65,
-.frame-child66 {
+.frame-child74,
+.frame-child75,
+.frame-child76,
+.frame-child77 {
   position: absolute;
   top: 0;
   left: 18px;
@@ -333,27 +333,27 @@
   height: 175px;
   object-fit: cover;
 }
-.frame-child64,
-.frame-child65,
-.frame-child66 {
+.frame-child75,
+.frame-child76,
+.frame-child77 {
   top: 25px;
   left: 152px;
   border-radius: 0 var(--br-11xl) 0 0;
   z-index: 1;
 }
-.frame-child65,
-.frame-child66 {
+.frame-child76,
+.frame-child77 {
   top: 152px;
   left: 0;
   border-radius: 0 0 0 var(--br-11xl);
 }
-.frame-child66 {
+.frame-child77 {
   top: 168px;
   left: 138px;
   border-radius: 0 0 var(--br-11xl) 0;
   z-index: 2;
 }
-.rectangle-parent20 {
+.rectangle-parent23 {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -411,7 +411,7 @@
   gap: var(--gap-base);
   max-width: 100%;
 }
-.frame-wrapper21 {
+.frame-wrapper23 {
   align-self: stretch;
   flex-direction: row;
   padding: 0 0 0 var(--padding-7xl);
@@ -420,7 +420,7 @@
   font-size: var(--font-size-base);
 }
 .frame-parent34,
-.frame-wrapper21,
+.frame-wrapper23,
 .to-gain-weight-an-individual-parent {
   display: flex;
   align-items: flex-start;
@@ -554,7 +554,7 @@
   gap: var(--gap-7xs);
 }
 .frame-parent35,
-.frame-wrapper22 {
+.frame-wrapper24 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -565,7 +565,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.frame-wrapper22 {
+.frame-wrapper24 {
   width: 1271px;
   justify-content: center;
   padding: 0 var(--padding-xl);
@@ -628,7 +628,7 @@
     padding-left: var(--padding-83xl);
     box-sizing: border-box;
   }
-  .frame-wrapper19 {
+  .frame-wrapper21 {
     flex: 1;
   }
   .frame-parent34 {
@@ -652,7 +652,7 @@
     padding-left: var(--padding-32xl);
     box-sizing: border-box;
   }
-  .rectangle-parent18 {
+  .rectangle-parent21 {
     padding-left: var(--padding-25xl);
     padding-right: var(--padding-25xl);
     box-sizing: border-box;
@@ -660,7 +660,7 @@
   .to-lose-weight-an-individual-parent {
     gap: var(--gap-5xl);
   }
-  .frame-wrapper19 {
+  .frame-wrapper21 {
     min-width: 100%;
   }
   .g-weight-images-parent {
@@ -695,7 +695,7 @@
   .what-is-your {
     font-size: var(--font-size-5xl);
   }
-  .rectangle-parent18 {
+  .rectangle-parent21 {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;

@@ -1,4 +1,4 @@
-.frame-child7 {
+.rectangle-div {
   height: 95px;
   width: 1440px;
   position: relative;
@@ -12,14 +12,14 @@
   min-width: 66px;
   z-index: 2;
 }
-.home-container {
+.home-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-7xl) 0 0;
 }
-.recipes {
+.recipes1 {
   position: relative;
   display: inline-block;
   min-width: 90px;
@@ -53,7 +53,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.male-user-icon {
+.male-user-icon1 {
   height: 77px;
   width: 72px;
   position: relative;
@@ -61,14 +61,14 @@
   z-index: 2;
 }
 .frame-child9,
-.frame-header {
+.rectangle-group {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1;
 }
-.frame-header {
+.rectangle-group {
   margin: 0 !important;
   right: 0;
   background: linear-gradient(90deg, #def088, #a6d555 45.5%, #619603);
@@ -92,7 +92,7 @@
   height: 100%;
   cursor: pointer;
 }
-.care-meal1 {
+.care-meal {
   position: absolute;
   top: 16px;
   left: 44px;
@@ -105,7 +105,7 @@
   height: 30px;
   z-index: 2;
 }
-.rectangle-parent2 {
+.rectangle-container {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -128,7 +128,7 @@
   height: 100%;
   cursor: pointer;
 }
-.roulette1 {
+.roulette {
   position: absolute;
   top: 16px;
   left: 44px;
@@ -163,7 +163,7 @@
 }
 .fitness,
 .frame-child10,
-.rectangle-parent3 {
+.rectangle-parent1 {
   cursor: pointer;
   position: absolute;
 }
@@ -179,7 +179,7 @@
   height: 30px;
   z-index: 1;
 }
-.rectangle-parent3 {
+.rectangle-parent1 {
   border: 0;
   padding: 0;
   background-color: transparent;
@@ -189,15 +189,15 @@
   top: 123px;
   right: 72px;
 }
-.healthy1,
-.living1 {
+.healthy,
+.living {
   position: absolute;
   margin: 0 !important;
   display: inline-block;
   text-shadow: 0 2.2px 2.19px rgba(0, 0, 0, 0.25);
   z-index: 1;
 }
-.living1 {
+.living {
   height: 61px;
   width: 534px;
   bottom: 54px;
@@ -206,7 +206,7 @@
   font-weight: 700;
   font-family: inherit;
 }
-.healthy1 {
+.healthy {
   width: 334px;
   top: 206px;
   left: 143px;
@@ -222,7 +222,7 @@
   object-fit: cover;
   z-index: 1;
 }
-.healthy2 {
+.healthy1 {
   margin: 0 !important;
   height: 69px;
   width: 639px;
@@ -236,7 +236,7 @@
   text-shadow: 0 2.2px 2.19px rgba(0, 0, 0, 0.25);
   z-index: 2;
 }
-.frame-parent16 {
+.frame-container {
   position: absolute;
   top: 346px;
   left: 36px;
@@ -247,7 +247,7 @@
   justify-content: flex-start;
   max-width: 100%;
 }
-.image-1-icon2 {
+.image-1-icon1 {
   position: absolute;
   top: -3px;
   left: 56px;
@@ -277,7 +277,7 @@
   cursor: pointer;
   z-index: 1;
 }
-.bmi1 {
+.bmi {
   position: absolute;
   top: 11px;
   left: 44px;
@@ -530,7 +530,7 @@
   font-size: var(--font-size-xl);
   color: var(--color-black);
 }
-.frame-parent15 {
+.frame-group {
   height: 1024px;
   flex: 1;
   position: relative;
@@ -554,14 +554,14 @@
   text-shadow: 0 2.2px 2.19px rgba(0, 0, 0, 0.25);
   z-index: 2;
 }
-.frame-main,
+.frame-parent,
 .home1 {
   position: relative;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-main {
+.frame-parent {
   align-self: stretch;
   flex-direction: row;
   max-width: 100%;
@@ -579,22 +579,22 @@
   letter-spacing: normal;
 }
 @media screen and (max-width: 1200px) {
-  .frame-header {
+  .rectangle-group {
     padding-left: var(--padding-83xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 1050px) {
-  .living1 {
+  .living {
     font-size: var(--font-size-29xl);
   }
-  .healthy1 {
+  .healthy {
     font-size: 45px;
   }
-  .healthy2 {
+  .healthy1 {
     font-size: var(--font-size-32xl);
   }
-  .bmi1 {
+  .bmi {
     font-size: var(--font-size-5xl);
   }
   .know-more {
@@ -606,7 +606,7 @@
   }
 }
 @media screen and (max-width: 750px) {
-  .frame-header {
+  .rectangle-group {
     display: none;
     gap: var(--gap-34xl);
     padding-left: var(--padding-32xl);
@@ -614,25 +614,25 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .frame-header {
+  .rectangle-group {
     gap: var(--gap-7xl);
     padding-left: var(--padding-xl);
     box-sizing: border-box;
   }
   .fitness,
-  .roulette1 {
+  .roulette {
     font-size: var(--font-size-xl);
   }
-  .living1 {
+  .living {
     font-size: var(--font-size-10xl);
   }
-  .healthy1 {
+  .healthy {
     font-size: 34px;
   }
-  .healthy2 {
+  .healthy1 {
     font-size: var(--font-size-13xl);
   }
-  .bmi1 {
+  .bmi {
     font-size: var(--font-size-lg);
   }
   .know-more {

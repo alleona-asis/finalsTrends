@@ -26,49 +26,61 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Paytone One:wght@400&display=swap"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Advent Pro:wght@400&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Satoshi Variable";
+        src: url("./public/FontsFree-Net-Satoshi-Variable.ttf");
+        font-weight: 700;
+      }
+    </style>
   </head>
   <body>
     <div class="home1">
-      <header class="frame-header">
-        <div class="frame-child7"></div>
-        <div class="home-container">
+      <header class="rectangle-group">
+        <div class="rectangle-div"></div>
+        <div class="home-wrapper">
           <b class="home2">HOME</b>
         </div>
         <div class="recipes-wrapper">
-          <b class="recipes">RECIPES</b>
+          <b class="recipes1">RECIPES</b>
         </div>
         <div class="rectangle-wrapper">
           <div class="frame-child8"></div>
         </div>
         <img
-          class="male-user-icon"
+          class="male-user-icon1"
           loading="lazy"
           alt=""
           src="./public/male-user@2x.png"
         />
       </header>
-      <button class="rectangle-parent2">
+      <button class="rectangle-container">
         <div class="frame-child9" id="rectangle"></div>
-        <b class="care-meal1">CARE MEAL</b>
+        <b class="care-meal">CARE MEAL</b>
       </button>
-      <main class="frame-main">
+      <main class="frame-parent">
         <button class="roulette-fitness-parent">
           <div class="roulette-fitness" id="rouletteFitness"></div>
-          <b class="roulette1">ROULETTE</b>
+          <b class="roulette">ROULETTE</b>
         </button>
-        <button class="rectangle-parent3">
+        <button class="rectangle-parent1">
           <div class="frame-child10" id="rectangle"></div>
           <b class="fitness" id="fITNESSText">FITNESS</b>
         </button>
-        <h1 class="living1">LIVING</h1>
-        <b class="healthy1">HEALTHY</b>
-        <section class="frame-parent15">
-          <div class="frame-parent16">
+        <h1 class="living">LIVING</h1>
+        <b class="healthy">HEALTHY</b>
+        <section class="frame-group">
+          <div class="frame-container">
             <img class="group-icon" alt="" src="./public/girl@2x.png" />
 
-            <h1 class="healthy2">HEALTHY</h1>
+            <h1 class="healthy1">HEALTHY</h1>
           </div>
-          <img class="image-1-icon2" alt="" src="./public/image-11@2x.png" />
+          <img class="image-1-icon1" alt="" src="./public/image-11@2x.png" />
 
           <div class="contact-information">
             <img
@@ -79,7 +91,7 @@
 
             <button class="contact-us-button">
               <div class="contact-us-button-child" id="rectangle"></div>
-              <b class="bmi1">BMI</b>
+              <b class="bmi">BMI</b>
             </button>
           </div>
           <div class="action-button">
@@ -156,7 +168,7 @@
       var rouletteFitness = document.getElementById("rouletteFitness");
       if (rouletteFitness) {
         rouletteFitness.addEventListener("click", function (e) {
-          // Please sync "FEATURE-ROULETTE" to the project
+          window.location.href = "./FEATUREROULETTE.html";
         });
       }
 

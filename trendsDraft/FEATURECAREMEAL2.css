@@ -6,7 +6,7 @@
   display: none;
   max-width: 100%;
 }
-.home6 {
+.home7 {
   position: relative;
   display: inline-block;
   min-width: 66px;
@@ -20,7 +20,7 @@
   justify-content: flex-start;
   padding: var(--padding-7xl) 0 0;
 }
-.recipes4 {
+.recipes5 {
   position: relative;
   display: inline-block;
   min-width: 90px;
@@ -45,7 +45,7 @@
   display: none;
   max-width: 100%;
 }
-.search-icon3 {
+.search-icon4 {
   height: 40px;
   width: 40px;
   position: relative;
@@ -74,7 +74,7 @@
   justify-content: flex-start;
   padding: var(--padding-mini) var(--padding-19xl) 0 0;
 }
-.male-user-icon5 {
+.male-user-icon6 {
   height: 77px;
   width: 72px;
   position: relative;
@@ -101,7 +101,7 @@
   color: var(--color-saddlebrown);
   font-family: var(--font-montserrat);
 }
-.image-1-icon6,
+.image-1-icon7,
 .spring-rolls-fin-1-icon {
   position: absolute;
   top: -3px;
