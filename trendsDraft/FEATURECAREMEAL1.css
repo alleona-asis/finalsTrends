@@ -942,7 +942,7 @@
   flex-direction: column;
   padding: 0 0 var(--padding-40xl);
   box-sizing: border-box;
-  gap: 73px;
+  gap: var(--gap-54xl);
   max-width: 100%;
 }
 .frame-child49 {
@@ -1409,7 +1409,7 @@
 .vector-parent27 {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-9xl) var(--padding-10xl) 13px;
+  padding: var(--padding-9xl) var(--padding-10xl) var(--padding-smi);
   background-color: var(--color-yellowgreen-300);
   width: 310px;
   margin: 0 !important;
@@ -1484,7 +1484,7 @@
   white-space: nowrap;
 }
 .rectangle-parent17:hover {
-  background-color: #c79400;
+  background-color: var(--color-goldenrod-100);
 }
 .image,
 .image-inner {
@@ -1585,7 +1585,7 @@
     gap: var(--gap-8xl);
   }
   .frame-parent27 {
-    gap: 36px;
+    gap: var(--gap-17xl);
     padding-bottom: var(--padding-19xl);
     box-sizing: border-box;
   }

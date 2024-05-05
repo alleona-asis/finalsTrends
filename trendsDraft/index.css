@@ -126,7 +126,7 @@
 }
 .rectangle-parent:hover {
   background-color: rgba(219, 130, 33, 0.09);
-  border: 2px solid #db8221;
+  border: 2px solid var(--color-chocolate-200);
   box-sizing: border-box;
 }
 .frame-container {
@@ -328,7 +328,7 @@
 }
 .frame-wrapper1 {
   width: 354px;
-  padding: 0 19px;
+  padding: 0 var(--padding-lgi);
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -786,7 +786,7 @@
 }
 .frame-parent7 {
   flex-direction: column;
-  gap: 42px;
+  gap: var(--gap-23xl);
 }
 .rectangle-icon {
   height: 48px;
@@ -1021,7 +1021,7 @@
 }
 .alignment-aligner {
   align-self: stretch;
-  padding: var(--padding-15xl) 70px var(--padding-9xl);
+  padding: var(--padding-15xl) var(--padding-51xl) var(--padding-9xl);
   position: relative;
   gap: 3px;
   margin-top: -80px;
@@ -1069,7 +1069,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 7px 0 var(--padding-xs);
+  padding: 0 var(--padding-6xs) 0 var(--padding-xs);
 }
 .wave-cluster-icon {
   align-self: stretch;
@@ -1828,7 +1828,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 34.5px var(--padding-3xl) 0 0;
+  padding: var(--padding-15xl-5) var(--padding-3xl) 0 0;
   box-sizing: border-box;
 }
 .alignment-helper-icon {
@@ -1919,7 +1919,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 7.5px 0 0;
+  padding: var(--padding-5xs-5) 0 0;
   box-sizing: border-box;
 }
 .socialize-with-healmeal {
@@ -2017,7 +2017,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 70px;
+  gap: var(--gap-51xl);
   max-width: 100%;
 }
 .healmeal-landing-page {
@@ -2141,7 +2141,7 @@
     font-size: var(--font-size-10xl);
   }
   .frame-parent7 {
-    gap: 21px;
+    gap: var(--gap-2xl);
   }
   .frame-parent6 {
     gap: var(--gap-5xl);
@@ -2178,7 +2178,7 @@
     grid-template-columns: minmax(241px, 1fr);
   }
   .frame-parent8 {
-    gap: 40px;
+    gap: var(--gap-21xl);
   }
   .frame-section {
     gap: 45px;
@@ -2210,7 +2210,7 @@
     box-sizing: border-box;
   }
   .shape-transformer {
-    gap: 35px;
+    gap: var(--gap-16xl);
   }
   .style-switcher {
     gap: var(--gap-5xl);

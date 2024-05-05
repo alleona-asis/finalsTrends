@@ -464,7 +464,7 @@
   padding: var(--padding-3xs) 0 0;
   box-sizing: border-box;
   text-align: center;
-  font-size: 15px;
+  font-size: var(--font-size-mini);
   font-family: var(--font-inria-sans);
 }
 .frame-parent22,
@@ -587,7 +587,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 11.8px 3.2px;
+  padding: 0 var(--padding-xs-8) 3.2px;
 }
 .box {
   height: 100%;
